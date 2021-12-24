@@ -1,0 +1,290 @@
+[13-Nov-2020 03:49:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/onlihnmd/public_html/billing/includes/DbConnect.php on line 19
+[13-Nov-2020 03:49:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/onlihnmd/public_html/billing/includes/DbConnect.php on line 19
+[13-Nov-2020 03:49:32 America/New_York] PHP Warning:  move_uploaded_file(/home/onlihnmd/public_html/billing/includes/uploads/registrations/1605257355690.jpg): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/LogInHelper.php on line 73
+[13-Nov-2020 03:49:32 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMv3VPb' to '/home/onlihnmd/public_html/billing/includes/uploads/registrations/1605257355690.jpg' in /home/onlihnmd/public_html/billing/includes/LogInHelper.php on line 73
+[13-Nov-2020 03:49:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/onlihnmd/public_html/billing/includes/LogInHelper.php:119
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/includes/LogInHelper.php(74): LogInHelper->isUserExist('a@s.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(24): LogInHelper->registerUser('/tmp/phpMv3VPb', 'jpg', 'a', 'aa', 'a@s.com', 'f0e8b8d978427c0...', '1605257355690', '11')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/includes/LogInHelper.php on line 119
+[13-Nov-2020 03:59:44 America/New_York] PHP Notice:  Constant UPLOAD_AUT_PATH already defined in /home/onlihnmd/public_html/billing/includes/Constants.php on line 12
+[13-Nov-2020 03:59:44 America/New_York] PHP Warning:  move_uploaded_file(/home/onlihnmd/public_html/billing/includeshttps://onlinesd.store/billing/ImageUploadApi/uploads/registrations/1605257967213.jpg): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/LogInHelper.php on line 73
+[13-Nov-2020 03:59:44 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMzmHkw' to '/home/onlihnmd/public_html/billing/includeshttps://onlinesd.store/billing/ImageUploadApi/uploads/registrations/1605257967213.jpg' in /home/onlihnmd/public_html/billing/includes/LogInHelper.php on line 73
+[13-Nov-2020 06:30:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:95
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(78): LogInHelper->getId('a@s.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpa2tqf7', 'jpg', 'a', 'aa', 'a@s.com', 'f0e8b8d978427c0...', '1605266978749', '11')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 95
+[13-Nov-2020 07:11:31 America/New_York] PHP Notice:  Undefined variable: id in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 77
+[13-Nov-2020 10:57:26 America/New_York] PHP Notice:  Undefined variable: id in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 77
+[13-Nov-2020 11:03:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:100
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(82): LogInHelper->getId('z@q.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpMmR1zv', 'jpg', 'aa', 'aa', 'z@q.com', 'f0e8b8d978427c0...', '1605283407202', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 100
+[13-Nov-2020 12:59:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:100
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(82): LogInHelper->getId('z@q1.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpHPwVJT', 'jpg', 'aa', 'aa', 'z@q1.com', 'f0e8b8d978427c0...', '1605290345236', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 100
+[13-Nov-2020 13:06:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:100
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(82): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpMb5zfs', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605290753335', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 100
+[13-Nov-2020 13:15:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:100
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(82): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpWqMPZT', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605291296339', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 100
+[13-Nov-2020 13:21:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpqLBuSV', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605291658858', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:09:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpKNbp68', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605294568558', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:11:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpbEWTuW', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605294686954', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:15:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpn4Tqip', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605294923535', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:18:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpwt5FmS', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605295115260', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:48:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpVFNby7', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605296897343', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:53:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpUKxS04', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605297194052', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:55:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpJ6bVIm', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605297293976', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:58:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpH1x8Tv', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605297458612', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 14:59:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/php5RhKC4', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605297521158', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 15:01:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpFxZfhu', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605297638447', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 15:18:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:95
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qw.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpfzzywO', 'jpg', 'aa', 'aa', 'z@qw.com', 'f0e8b8d978427c0...', '1605298712795', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 95
+[13-Nov-2020 15:27:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:96
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpZAhdeu', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605299220671', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 96
+[13-Nov-2020 15:28:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:96
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpHJjCSA', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605299286109', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 96
+[13-Nov-2020 15:31:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:96
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpuSDXEA', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605299466037', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 96
+[13-Nov-2020 15:36:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpNaq1nC', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605299782139', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 15:41:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:97
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpk88xlD', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605300066433', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 97
+[13-Nov-2020 15:45:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:98
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('z@qr.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpQ2jKSU', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605300296989', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 98
+[13-Nov-2020 15:48:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:98
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('a@a.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpouRQtV', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605300470870', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 98
+[13-Nov-2020 15:49:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:98
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('a@a.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpf41196', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605300565637', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 98
+[13-Nov-2020 15:50:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php:98
+Stack trace:
+#0 /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php(79): LogInHelper->getId('a@a.com')
+#1 /home/onlihnmd/public_html/billing/registeration/rigester.php(25): LogInHelper->registerUser('/tmp/phpxNZgvs', 'jpg', 'aa', 'aa', 'z@qr.com', 'f0e8b8d978427c0...', '1605300635791', '111')
+#2 {main}
+  thrown in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 98
+[26-Nov-2020 08:27:02 America/New_York] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[26-Nov-2020 08:27:02 America/New_York] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[26-Nov-2020 08:27:02 America/New_York] PHP Fatal error:  require(): Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[26-Nov-2020 08:27:25 America/New_York] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[26-Nov-2020 08:27:25 America/New_York] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[26-Nov-2020 08:27:25 America/New_York] PHP Fatal error:  require(): Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/includes/DbOperation.php on line 5
+[11-Feb-2021 16:13:19 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 10:57:45 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 11:29:02 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 11:42:28 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 12:29:02 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 12:29:36 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 12:49:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 14:52:13 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 15:13:08 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 16:24:49 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 16:29:21 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[12-Feb-2021 20:52:03 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Feb-2021 00:37:12 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Feb-2021 02:26:01 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Feb-2021 05:27:41 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Feb-2021 06:26:27 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Feb-2021 08:49:16 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[14-Feb-2021 03:41:09 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[14-Feb-2021 06:03:45 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[14-Feb-2021 06:04:50 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[15-Feb-2021 11:44:57 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[15-Feb-2021 11:46:46 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[15-Feb-2021 11:46:58 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[15-Feb-2021 11:59:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[17-Feb-2021 09:00:41 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[17-Feb-2021 20:28:57 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:24:34 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:25:24 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:27:06 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:10 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:20 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:31 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:34 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:38 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:38 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:28:38 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Feb-2021 09:31:07 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 13:00:41 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 17:38:54 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 17:40:18 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 17:40:22 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 17:40:24 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-Feb-2021 17:40:35 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[20-Feb-2021 03:07:13 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[20-Feb-2021 04:10:17 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[20-Feb-2021 04:13:40 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 03:05:49 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 03:06:22 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 03:06:40 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 03:42:11 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 03:42:39 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 10:21:40 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 11:55:09 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Feb-2021 11:55:33 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[22-Feb-2021 03:32:46 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Feb-2021 03:36:28 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Feb-2021 20:30:31 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Feb-2021 20:31:12 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Feb-2021 20:31:40 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Feb-2021 20:32:02 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[24-Feb-2021 10:07:36 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[24-Feb-2021 10:08:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[25-Feb-2021 11:38:45 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[26-Feb-2021 04:57:21 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[01-Mar-2021 06:49:12 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[01-Mar-2021 06:49:23 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[02-Mar-2021 15:21:04 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[02-Mar-2021 15:21:23 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[02-Mar-2021 15:21:36 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:27:03 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:27:23 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:27:43 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:27:53 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:27:57 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[04-Mar-2021 17:28:01 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[06-Mar-2021 10:52:38 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-Mar-2021 00:33:42 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Mar-2021 16:35:36 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Mar-2021 16:37:25 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Mar-2021 16:37:30 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Mar-2021 11:17:57 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Mar-2021 12:58:03 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Mar-2021 13:00:14 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[23-Mar-2021 13:00:30 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[31-Mar-2021 03:01:08 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[01-Apr-2021 00:32:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[01-Apr-2021 13:57:02 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[03-Apr-2021 12:32:40 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 03:50:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 06:32:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 06:39:18 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 09:26:44 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 10:34:54 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[05-Apr-2021 14:43:00 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[06-Apr-2021 08:34:31 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[10-Apr-2021 08:12:05 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[10-Apr-2021 09:49:55 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[11-Apr-2021 16:50:02 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Apr-2021 08:18:29 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Apr-2021 08:47:28 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[13-Apr-2021 13:00:41 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[16-Apr-2021 04:34:00 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[21-Apr-2021 12:08:41 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[22-Apr-2021 07:43:45 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[25-Apr-2021 12:49:42 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[25-Apr-2021 13:32:16 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[07-May-2021 01:18:15 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[08-May-2021 08:27:53 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[08-May-2021 08:30:06 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[08-May-2021 08:30:51 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[08-May-2021 18:23:58 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[18-May-2021 09:11:19 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71
+[19-May-2021 08:05:54 America/New_York] PHP Notice:  Undefined variable: password in /home/onlihnmd/public_html/billing/ImageUploadApi/LogInHelper.php on line 71

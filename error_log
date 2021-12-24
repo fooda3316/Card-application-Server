@@ -1,0 +1,26 @@
+[14-Nov-2020 17:54:29 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 17:54:29 America/New_York] PHP Fatal error:  Uncaught Error: Class 'FileHandler' not found in /home/onlihnmd/public_html/billing/uploadCardText.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/onlihnmd/public_html/billing/uploadCardText.php on line 13
+[14-Nov-2020 17:57:52 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 17:57:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'FileHandler' not found in /home/onlihnmd/public_html/billing/uploadCardText.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/onlihnmd/public_html/billing/uploadCardText.php on line 13
+[14-Nov-2020 18:00:16 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 18:00:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'FileHandler' not found in /home/onlihnmd/public_html/billing/uploadCardText.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/onlihnmd/public_html/billing/uploadCardText.php on line 13
+[14-Nov-2020 18:02:40 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 18:02:40 America/New_York] PHP Warning:  require_once(../includes/DbConnect.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:02:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:03:54 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 18:03:54 America/New_York] PHP Warning:  require_once(../includes/DbConnect.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:03:54 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:08:05 America/New_York] PHP Notice:  Undefined index: title in /home/onlihnmd/public_html/billing/uploadCardText.php on line 10
+[14-Nov-2020 18:08:05 America/New_York] PHP Warning:  require_once(../includes/DbConnect.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:08:05 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/FileHandler.php on line 11
+[14-Nov-2020 18:12:13 America/New_York] PHP Warning:  require_once(../includes/DbConnect.php): failed to open stream: No such file or directory in /home/onlihnmd/public_html/billing/uploadCardText.php on line 3
+[14-Nov-2020 18:12:13 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/onlihnmd/public_html/billing/uploadCardText.php on line 3
